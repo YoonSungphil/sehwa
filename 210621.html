@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>info</title>
+<style>
+html, body {
+width: 100%;
+height: 100%;
+}
+#header {
+height: 20%;
+background-color: pink;
+}
+h1 {
+font-size: 50px;
+text-align: center;
+}
+#nav {
+width: 15%;
+height: 70%;
+background-color: yellow;
+float: left;
+}
+#footer {
+height: 10%;
+background-color: grey;
+clear: both;
+}
+#container {
+width: 85%;
+height: 70%;
+float: right;
+}
+#container ul: active{
+display: none;
+} 
+#container div{ 
+width: 100px;
+height: 100px;
+background-color: red;
+pasition: relative;
+animation-name: example;
+animation-duration: 3s;
+animation-interaction-count: infinate;
+}
+@keyframes example {
+0% {
+background-color: red;
+left: 0px;
+top: 0px;
+}
+25% {
+background-color: blue;
+left: 200px;
+top: 0px;
+}
+50% {
+background-color: yellow;
+left: 200px;
+top: 200px;
+}
+75% {
+background-color: purple;
+left: 0px;
+top: 200px;
+}
+0% {
+background-color: red;
+left: 0px;
+top:0px;
+}
+</style>
+</head>
+<div id="header">
+<h1> My homepage</h1>
+</div>
+<div id="nav">
+<ul>
+<li>홈페이지</li>
+<li>자기소개</li>
+<li>학교생활</li>
+<li>방과후</li>
+</ul>
+
+</div>
+<div id="container">
+<h2>Todo List</h2>
+<ul>
+<li>온라인 수업 듣기</li>
+<li>수학 공부하기</li>
+<li>과학 공부하기</li>
+</ul>
+<hr>
+</div>
+<div id="footer">
+https://github.com/YoonSungphil/sehwa.git
+</div>
+</body>
+</html>
